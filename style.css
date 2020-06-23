@@ -1,5 +1,8 @@
 body {
   background-color: lightgoldenrodyellow;
+  color: rgb(50, 50, 50);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
 }
 
 #welcome {
@@ -8,6 +11,15 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#heroes {
+  display: flex;
+}
+
+.hero {
+  width: 400px;
+  display: block;
 }
 
 .hero img {
