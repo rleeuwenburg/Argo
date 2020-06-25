@@ -13,13 +13,14 @@ body {
   background-repeat: no-repeat;
 }
 
-#heroes {
+.flex-container {
   display: flex;
+  justify-content: space-around;
 }
 
 .hero {
-  width: 400px;
-  display: block;
+  width: 300px;
+  display: inline-block;
 }
 
 .hero img {
